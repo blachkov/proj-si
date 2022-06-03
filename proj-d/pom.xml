@@ -6,4 +6,12 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>proj-d</artifactId>
+  
+  <dependencies>
+	<dependency>
+		<groupId>si</groupId>
+		<artifactId>proj-c</artifactId>
+		<version>${project.version}</version>
+	</dependency>
+  </dependencies>
 </project>
